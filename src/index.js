@@ -1,11 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import {App} from './10Grid/App';
+import {App} from './19Tabs/App';
+import {BrowserRouter} from "react-router-dom";
+import {CssBaseline} from "@material-ui/core";
 
 ReactDOM.render(
-  <React.StrictMode>
-              <App/>
-  </React.StrictMode>,
-  document.getElementById('root')
+    <React.StrictMode>
+        <CssBaseline/>
+        <BrowserRouter>
+            <App/>
+        </BrowserRouter>
+    </React.StrictMode>,
+    document.getElementById('root')
 );
