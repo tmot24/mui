@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {App} from './19Tabs/App';
+import {App} from './20TablePagination/App';
 import {BrowserRouter} from "react-router-dom";
 import {CssBaseline} from "@material-ui/core";
 
