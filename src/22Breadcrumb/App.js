@@ -13,13 +13,13 @@ export const App = () => {
         <>
             <BreadcrumbsContainer/>
             <Switch>
-                <Route exact from={"/"} component={Home}/>
-                <Route exact from={"/about"} component={About}/>
-                <Route exact from={"/jobs"} component={Jobs}/>
-                <Route exact from={"/jobs/engineer"} component={Engineer}/>
-                <Route exact from={"/jobs/marketer"} component={Marketer}/>
-                <Route exact from={"/jobs/designer"} component={Designer}/>
+                <Route exact path={"/"} component={Home}/>
+                <Route exact path={"/about"} component={About}/>
+                <Route exact path={"/jobs"} component={Jobs}/>
+                <Route exact path={"/jobs/engineer"} component={Engineer}/>
+                <Route exact path={"/jobs/marketer"} component={Marketer}/>
+                <Route exact path={"/jobs/designer"} component={Designer}/>
             </Switch>
         </>
-    )
-}
+    );
+};
