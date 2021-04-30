@@ -14,10 +14,11 @@ export const BreadcrumbsContainer = () => {
                 : <Typography>Home</Typography>}
             {
                 arrPath.map((name, index) => {
+                        const routeTo = `/${arrPath.slice(0, index + 1)}/`;
                         const isLast = index === arrPath.length - 1;
                         return isLast
                             ? <Typography key={index}>{name}</Typography>
-                            : <Link key={index} onClick={() => history.push(`${arrPath}`)} component={"button"}>{name}</Link>;
+                            : <Link key={index} onClick={() => history.push(routeTo)} component={"button"}>{name}</Link>;
                     }
                 )
             }
