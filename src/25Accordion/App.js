@@ -54,8 +54,6 @@ export const App = () => {
                     >
                         <AccordionSummary
                             expandIcon={<ExpandMoreIcon />}
-                            aria-controls="panel1bh-content"
-                            id="panel1bh-header"
                         >
                             <Typography className={classes.heading}>{heading}</Typography>
                             <Typography className={classes.secondaryHeading}>
