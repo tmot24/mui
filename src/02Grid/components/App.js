@@ -1,5 +1,5 @@
 import {Grid} from "@material-ui/core";
-import {MakeStyles} from "../../03Third/component/makeStyles";
+import {MakeStyles} from "../../03MakeStyles/component/makeStyles";
 
 export const App = () => {
 
